@@ -120,6 +120,21 @@
     background-color: #F7EBCF;
 }
 
+
+
+.younus-section{
+    margin: 80px 160px;
+    padding: 24px 48px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+
 .news-content{
     margin: 10px 160px;
 }
