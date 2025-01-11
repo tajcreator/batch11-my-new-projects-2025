@@ -162,13 +162,7 @@
     border-radius: 24px;
 }
 
-/* .news-card div, .news-card h1, .news-card p, .news-card img{
-    background-color: white;
-}
-
-.news-card2 div, .news-card2 h1, .news-card2 p, .news-card2 img{
-    background-color: white;
-} */
+ 
 
 .news-img{
     border-radius: 24px;
@@ -190,11 +184,54 @@
 
 }
 
+/* subscribe */
+.donate-section-1{
+    margin: 10px 160px;
+text-align: center;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+gap: 64;
+padding: 80px 100px 80px 100px;
+}
+
+.input-1{
+    border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 18px 40px 18px 40px;
+width: 600px;
+height: 55px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-style: none;
+}
+
+.btn-s{
+    border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+
+width: 150px;
+height: 93px;
+gap: 48;
+padding: 17px 34px 17px 34px;
+color: #F5F5F5;
+border-style: none;
+}
+
 .card1, .card3, .card4{
     border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: white;
     padding: 40px 40px;
     border-radius: 16px;
+    
 }
 
 .card2{
@@ -251,8 +288,7 @@
 .container {
     margin: 0 auto;
     position: static;
-    /* width: 1280px;
-    height: 560px; */
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -268,7 +304,7 @@
     position: static;
     width: 622px;
     height: 326px;
-    /* Auto layout */
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -306,7 +342,7 @@
 
     margin: 0 auto;
     color: rgb(14, 14, 14);
-    /* width: 1480px; */
+     
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 40px;
@@ -322,9 +358,7 @@
     margin: 0px auto;
 
     position: static;
-    /* width: 1480px;
-    height: 244px; */
-    /* Auto layout */
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -336,8 +370,7 @@
 
 .pillar-container {
 
-    /* width: 302px;
-    height: 244px; */
+   
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -370,10 +403,7 @@
     text-align: left;
 }
 
-/* .vision, .section-1{
-    gap: 238px;
  
-} */
 .vision-h11{
     margin-top: 80px ;
 }
@@ -381,7 +411,7 @@
 .vision-p{
     margin: 0 auto;
     color: rgba(14, 14, 14, 0.7);
-    /* width: 1480px; */
+   
     justify-content: flex-start;
     align-items: flex-start;
     letter-spacing: 0%;
@@ -417,8 +447,7 @@ margin: 12px 0px;
    padding: 11px 20px 11px 20px;
     background: rgb(84, 144, 245);
     gap: 48px;
-    /* width: 122px;
-    height: 41px; */
+  
     border-style: none;
     color: white;
 }
